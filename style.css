@@ -13,6 +13,17 @@ body{
     width: 400px;
     bottom: 500px;
 }
+.game_view button{
+    position: fixed;
+    left: 766px;
+    width: 150px;
+    height: 50px;
+    bottom: 440px;
+    background-color: rgb(255, 254, 254);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 35px;
+}
 
 
 .sidebar {

@@ -12,14 +12,13 @@
     <body>
       <div class="game_view">
 
-        <table id="mytable">
-
-
-
-        </table>
+        <!-- <table id="mytable"></table> -->
         <img src="/imgs/ground_background.png" alt="ground background" id="ground_img">
         <img src="/imgs/Minecraft-Logo.png" alt="Minecraft Logo" id="minecraft_logo">
-        <!-- <button type="button">Start</button> -->
+        <button type="button" onclick="playsound()">
+            <audio id="sfx"><source src="./sounds/minecraft_click.mp3"></audio>
+            START
+        </button>
       </div>
 
 
