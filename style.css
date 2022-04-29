@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(227, 234, 240);
+}
+.game_view #ground_img {
+    position: fixed;
+    left: 0;
+    width: 1700px;
+    height: 100%;
+}
+.game_view #minecraft_logo{
+    position: fixed;
+    left: 640px;
+    width: 400px;
+    bottom: 500px;
+}
+
+
+.sidebar {
+    background-color:black;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.tools{ 
+    text-align: center;
+    position: fixed;
+    right: 70px;
+    top:200px
+    
+
+}
+.pickaxe {
+    color: white;
+    border-color: white;
+    border-style: groove;
+    width: 100px;
+    font-size: 13px;
+    font-family: monospace;
+    margin-bottom: 1rem;
+
+ 
+}
+.shovel{
+    color: white;
+    border-color: white;
+    border-style: groove;
+    width: 100px;
+    font-size: 13px;
+    font-family: monospace;
+    margin-bottom: 1rem;
+
+    
+
+}
+.axe {
+    color: white;
+    border-color: white;
+    border-style: groove;
+    width: 100px;
+    font-size: 13px;
+    font-family: monospace;
+    margin-bottom: 1rem;
+
+
+}
+.inventory{
+    color: white;
+    border-color: white;
+    border-style: groove;
+    width: 70px;
+    height: 70px;
+    font-size: 13px;
+    font-family: monospace;
+    position: fixed;
+    right: 83px;
+}
+
+.tools img{
+    width: 100px;
+}
+
+.inventory #inventory_img{
+    width: 70px;
+}
