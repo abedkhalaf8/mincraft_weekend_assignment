@@ -91,3 +91,19 @@ body{
 .inventory #inventory_img{
     width: 70px;
 }
+
+.pickaxe:hover{
+        background-color:blue;
+}
+
+.shovel:hover{
+    background-color: blue;
+}
+
+.axe:hover{
+    background-color: blue;
+}
+
+.inventory:hover{
+    background-color: blue;
+}
